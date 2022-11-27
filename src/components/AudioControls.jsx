@@ -23,12 +23,6 @@ const AudioControls = ({ handleSwitch, drumName, volume, handleVolume }) => {
             onChange={handleVolume}
           />
         </div>
-        <div className="kit-container">
-          <h3 className="bank-h3">Bank</h3>
-          <div className="black-div">
-            <div className="blue-div"></div>
-          </div>
-        </div>
       </div>
     </>
   );

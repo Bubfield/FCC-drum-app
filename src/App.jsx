@@ -37,6 +37,7 @@ function App() {
         if (power === true) {
           const audio = targetDrum.firstChild;
           audio.volume = volume;
+          audio.currentTime = 0;
           audio.play();
           setDrumName(drumNameObj[e.key]);
           buttonStyles.backgroundColor = "orange";
@@ -67,9 +68,9 @@ function App() {
         }
       }
     };
-    window.addEventListener("keydown", keyListener);
+    document.addEventListener("keydown", keyListener);
     return () => {
-      window.removeEventListener("keydown", keyListener);
+      document.removeEventListener("keydown", keyListener);
     };
     //eslint-disable-next-line
   }, [volume, power]);

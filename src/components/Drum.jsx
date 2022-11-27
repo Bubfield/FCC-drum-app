@@ -4,6 +4,7 @@ const Drum = ({ drum, audioClip, setDrumName, nameOf, volume }) => {
   const play = (e) => {
     const audio = e.target.firstChild;
     audio.volume = volume;
+    audio.currentTime = 0;
     audio.play();
     setDrumName(nameOf);
     const buttonStyles = e.target.style;
