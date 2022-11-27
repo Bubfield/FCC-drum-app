@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/FCC-drum-app/static/css/main.3f9875c4.css",
-    "main.js": "/FCC-drum-app/static/js/main.fc611dd5.js",
+    "main.js": "/FCC-drum-app/static/js/main.323370e9.js",
     "index.html": "/FCC-drum-app/index.html",
     "main.3f9875c4.css.map": "/FCC-drum-app/static/css/main.3f9875c4.css.map",
-    "main.fc611dd5.js.map": "/FCC-drum-app/static/js/main.fc611dd5.js.map"
+    "main.323370e9.js.map": "/FCC-drum-app/static/js/main.323370e9.js.map"
   },
   "entrypoints": [
     "static/css/main.3f9875c4.css",
-    "static/js/main.fc611dd5.js"
+    "static/js/main.323370e9.js"
   ]
 }
